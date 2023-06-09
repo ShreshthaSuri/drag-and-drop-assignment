@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 27px;
+  }
+  
+  p#message {
+  color: white;
+  text-align: center;
+  font-size: 38px;
+  font-family: cursive;
+  }
+  .container1 {
+      background-color: #2272FF;
+       border: 3px solid  darkblue;
+  }
+  h6 {
+  color: white;
+      text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+  .container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:  #4CAF50;
+    border: 3px solid darkblue;
+    padding: 20px;
+  }
+
+  .item {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 3px solid darkblue;
+    margin: 16px;
+    padding: 10px;
+    cursor: move;
+    background-color: white
+  
+  }
+
+  .item:hover {
+    background-color:grey;
+  }
+
+  .container2 {
+    flex: 0 0 200px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color:#2272FF;
+    border: 3px solid  darkblue;
+
+  }
+
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+
+  .reset-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #4CAF50; 
+    color: black; 
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 27px;
+  }
+
+ .reset-button:hover {
+    background-color: #033604;
+    color: white;
+  }

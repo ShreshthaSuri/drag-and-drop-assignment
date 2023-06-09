@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drag and Drop Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="index.js"></script>  
+  
+</head>
+<body>
+  <h6 style=>Try to drop item int the other container by dragging them!</h6>
+  
+    <div class="container">
+    <div class="container1" id="container1">
+      <div class="item" draggable="true" ondragstart="dragStart(event)" style="text-align: center;font-family: cursive;">Item 1</div>
+      <div class="item" draggable="true" ondragstart="dragStart(event)" style="text-align: center;font-family: cursive;">Item 2</div>
+      <div class="item" draggable="true" ondragstart="dragStart(event)" style="text-align: center;font-family: cursive;">Item 3</div>
+    </div>
+
+    <div class="container2" id="container2" ondrop="drop(event)" ondragover="dragOver(event)"></div>
+  </div>
+
+  <p id="message"></p>
+
+  <button class="reset-button" onclick="resetContainers()">Reset</button>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
